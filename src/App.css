@@ -1,6 +1,6 @@
 body {
-  background-color: #141414;
-  color: #fff;
+  background-color: #28aaca;
+  color: rgb(0, 0, 0);
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -108,10 +108,10 @@ video::-webkit-media-controls {
 }
 
 .logo {
-  width: 88px;
-  height: 22px;
-  background-image: url('https://i.imgur.com/Y9dwM3s.png');
-  background-size: 88px;
+  width: 200px;
+  height: 200px;
+  background-image: url('https://oceanmarket.s3.us-west-2.amazonaws.com/android-chrome-192x192.png');
+  background-size: 200px;
   margin: 5px;
 }
 
