@@ -1,6 +1,6 @@
 body {
-  background-color: #28aaca;
-  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  color: rgb(77, 144, 236);
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -39,13 +39,13 @@ body {
 .button {
   border-radius: 10px;
   background-color: #fff;
-  color: #000;
+  color: rgb(35, 33, 129);
   padding: 10px 20px;
   margin: 3px;
 }
 
 .more {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(47, 132, 182, 0.5);
 }
 
 .card {
@@ -89,9 +89,9 @@ video::-webkit-media-controls {
 .movie-section .card:hover {
   transform: scale(1.5);
   z-index: 1;
-  background-color: #212121;
+  background-color: #b42424;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.5),
+    0 6.7px 5.3px rgba(153, 38, 38, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.5),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.5);
 }
@@ -108,20 +108,21 @@ video::-webkit-media-controls {
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
-  background-image: url('https://oceanmarket.s3.us-west-2.amazonaws.com/android-chrome-192x192.png');
-  background-size: 200px;
+  width: 400px;
+  height: 100px;
+  background-image: url('https://oceanmarket.s3.us-west-2.amazonaws.com/Picture5.png');
+  background-size: 400px;
+  opacity: 70%;
   margin: 5px;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(104, 145, 192);
 }
 
 .more-button:hover {
-  background-color: rgb(255,255,255, 0.5);
+  background-color: rgba(228, 0, 0, 0.5);
 }
 
 .page-end {
