@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <!-- Required meta tags always come first -->
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta http-equiv="x-ua-compatible" content="ie=edge">
- 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0000006" />
+    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="a unit of the MICHAEL KEES COMPANY"
+      content="Web site created using create-react-app"
     />
     <script src="https://kit.fontawesome.com/91163e3bcb.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -33,13 +25,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Antidote Streaming</title>
+    <title>Netflix Clone using Astra DB and GraphQL</title>
   </head>
-  
   <body>
-  
-  
-    <noscript>test.</noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -51,104 +40,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  
   </body>
-  <body>
-    <main class="container-fluid">
-      <header>
-        <h1 class="text-center">Anti Blockchain</h1>
-      </header>
-  
-      <!-- Part 1 Setting up Basic Actions and Status-->
-      <section>
-        <h3 class="card-title">Status</h3>
-        <div class="row">
-          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-            <p class="info-text alert alert-primary">Network: <span id="network"></span></p>
-          </div>
-          
-          </div>
-  
-        </div>
-      </section>
-  
-      <section>
-        <div class="row d-flex justify-content-center">
-          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="card">
-              <img class="card-img-top" src="https://metamask.github.io/metamask-docs/ethereum-metamask-chrome.png"
-                alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Basic Actions</h4>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="connectButton" disabled></button>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="getAccounts">eth_accounts</button>
-                <p class="info-text alert alert-secondary">eth_accounts result: <span id="getAccountsResult"></span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Part 1 -->
-  
-      <section>
-        <!-- Part 2 Contract-->
-        <div class="row">
-          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-stretch">
-            <div class="card full-width">
-              <div class="card-body">
-                <h4 class="card-title">Contract</h4>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="deployButton" disabled>Deploy Contract</button>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="depositButton" disabled>Deposit</button>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="withdrawButton" disabled>Withdraw</button>
-                <p class="info-text alert alert-secondary">Contract Status: <span id="contractStatus">Not clicked</span></p>
-              </div>
-            </div>
-          </div>
-          <!-- /Part 2 -->
-  
-    <bod>    
-         <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-stretch">
-            <div class="card full-width">
-              <div class="card-body">
-                <h4 class="card-title">Send Eth</h4>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="sendButton" disabled>Send</button>
-                <p class="info-text alert alert-info">Contract Status: <span id="contractStatus">Not clicked</span></p>
-                <hr />
-                <h4>Sign Typed Data</h4>
-                <button class="btn btn-primary btn-lg btn-block mb-3" id="signTypedData" disabled>Sign</button>
-                <p class="info-text alert alert-warning">Sign Typed Data Result: <span id="signTypedDataResult"></span></p>
-              </div>
-            </div>
-          </div>
-  
-          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-stretch">
-            <div class="card full-width">
-              <div class="card-body">
-                <h4 class="card-title">Send Tokens</h4>
-                <p class="info-text alert alert-success">Token: <span id="tokenAddress"></span></p>
-                <button class="btn btn-lg btn-block mb-3" id="createToken" disabled>Create Token</button>
-                <button class="btn btn-lg btn-block mb-3" id="transferTokens" disabled>Transfer Tokens</button>
-                <button class="btn  btn-lg btn-block mb-3" id="approveTokens" disabled>Approve Tokens</button>
-                <button class="btn btn-lg btn-block mb-3" id="transferTokensWithoutGas" disabled>Transfer Tokens
-                  Without Gas</button>
-                <button class="btn btn-lg btn-block mb-3" id="approveTokensWithoutGas" disabled>Approve Tokens
-                  Without Gas</button>
-                <p class="info-text alert alert-info">Contract Status: <span id="contractStatus">Not clicked</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  
-    <script src="node_modules/@metamask/onboarding/dist/metamask-onboarding.bundle.js" defer></script>
-    <script src="contract.js" defer></script>
-  </body>
-  
-  
 </html>
-<footer>
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</footer>

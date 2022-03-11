@@ -9,13 +9,13 @@ const NavBar = () => {
           <a href="/">MOVIES</a>
         </li>
         <li>
-          <a href="/">TV</a>
+          <a href="/tv.html">TV</a>
         </li>
         <li>
           <a href="/">LIVE</a>
         </li>
         <li>
-          <a href="/">JUST ADDED</a>
+          <a href="/just_added.html">JUST ADDED 55555</a>
         </li>
       </ul>
     </div>
